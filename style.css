@@ -75,3 +75,19 @@ picture > img{
     display: block;
     margin: auto;
 }
+#quarto_par{
+    display: flex;
+}
+#quarto_par > img{
+    height: 650px;
+    width: 590px;
+    margin-right: 10px;
+    background-position: center center;
+}
+.alinhamento{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+#oracao > p{
+    columns: 2;
+}
