@@ -67,6 +67,9 @@ p{
 #terceiro_par{
     padding-bottom: 70px;
 }
+#terceiro_par > h2{
+    margin-bottom: 15px;
+}
 #terceiro_par > p{
     padding-top: 50px;
     padding-bottom: 10px;
