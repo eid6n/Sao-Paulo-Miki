@@ -11,6 +11,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+    background-image: linear-gradient(to top, #383838 , #e74c3c);
 }
 header{
     font-family: var(--fonte1);
