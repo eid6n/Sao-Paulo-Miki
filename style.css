@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dekko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root{
     --fonte1: 'Cinzel', serif;
@@ -29,9 +30,14 @@ header{
 #kanji{
     margin-top: 20px;
     margin-bottom: 0px;
-    font-size: 10vh;
+    font-size: 19vh;
     text-align: center;
+    background: -webkit-linear-gradient(#050505, #38383894);
+    background-clip: text;
+   -webkit-text-fill-color: transparent;
+    
 }   
+
 h2{
     font-family: var(--fonte1);
     font-size: 30px;
@@ -61,12 +67,17 @@ p{
     margin-right: 20px;
     width: 200vh;
 }
+#primeiro_par{
+    padding-bottom: 90px;
+}
+
 
 #segundo_par{
-    padding-top: 70px;
+    padding-top: 170px;
     padding-bottom: 120px;
     background-image: linear-gradient(to right, #4b6cb7,#182848);
     box-shadow: 3px 0px 7px 7px rgba(0, 0, 0, 0.342);
+    color: white;
     border-radius: 30px 30px;
 }
 #terceiro_par{
@@ -75,14 +86,35 @@ p{
 #terceiro_par > h2{
     margin-bottom: 15px;
 }
-#terceiro_par > p{
-    padding-top: 50px;
-    padding-bottom: 10px;
-    line-height: 40px;
+#terceiro_par >{
+    display: flex;
+    justify-content: left;
 }
+.terceiro_par p{
+    display: flex;
+    justify-content: left;
+    margin-left: 500px;
+    
+}
+
+.imgT{
+    display: flex;
+    justify-content:end;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1px;
+    margin-left: 90px;
+    background-color: #4b6cb7;
+
+}
+
+.terceiro_par img{
+    align-items: center;
+}
+
 picture > img{
-    display: block;
-    margin: auto;
+    margin-right: 10px;
+    background-position: center center;
 }
 #quarto_par{
     display: flex;
@@ -94,12 +126,46 @@ picture > img{
     background-position: center center;
 }
 .alinhamento{
-    padding-top: 70px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .alinhamento > h2{
     margin-bottom: 90px;
 }
-#oracao > p{
-    columns: 2;
+#quinto_par{
+    padding-bottom: 125px;
+    padding-top: 100px;
+}
+#sexto_par{
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+#oracao{
+    padding-bottom: 150px;
+    padding-top: 285px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#oracao p{
+    text-align: center;
+    font-family: "Arvo", serif;
+    font-size: 200%;
+    background: -webkit-linear-gradient(#f74904, #db9d17);
+    background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+    gap: 90px;
+    text-align: center;
+    font-size: 300%;
+}
+#Icon{
+    color: #ffff;
+}
+footer p{
+    display: flex;
+    justify-content: center;
 }
