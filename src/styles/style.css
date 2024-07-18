@@ -309,11 +309,11 @@ a:hover {
     height: 1px;
     margin-left: 200px;
     padding-bottom: 350px;
-        
     }
 
     .container {
         flex-direction: column;
+        overflow-x: hidden;
     }
 
     #quarto_par {
