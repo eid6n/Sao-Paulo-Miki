@@ -291,7 +291,7 @@ a:hover {
     padding: 7px;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1120px) {
 
     body{
         overflow-x: hidden;
