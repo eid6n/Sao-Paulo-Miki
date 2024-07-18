@@ -292,6 +292,10 @@ a:hover {
 
 @media screen and (max-width: 1020px) {
 
+    body{
+        overflow-x: hidden;
+    }
+
     .kanji{
     display: flex;
     justify-content: center;
