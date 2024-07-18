@@ -14,6 +14,7 @@ body {
     margin: 0px;
     background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);
     color: white;
+    overflow-x: hidden;
 }
 
 header {
@@ -293,6 +294,10 @@ a:hover {
 @media screen and (max-width: 1020px) {
 
     body{
+        overflow-x: hidden;
+    }
+
+    header{
         overflow-x: hidden;
     }
 
