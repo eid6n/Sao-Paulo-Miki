@@ -161,8 +161,6 @@ picture>img {
 #oracao {
     padding-bottom: 190px;
     padding-top: 285px;
-    margin-left: 80px;
-    margin-right: 80px;
 }
 
 #oracao p {
@@ -321,7 +319,6 @@ a:hover {
     }
 
     #oracao p {
-        text-align: center;
         font-family: "Arvo", serif;
         font-size: 145%;
         background: -webkit-linear-gradient(#f74904, #db9d17);
@@ -343,11 +340,17 @@ a:hover {
         justify-content: center;
         display: flex;
     }
+
     #link{
         margin-left: 250px;
     }
+
     picture{
         justify-content: center;
         display: flex;
+    }
+
+    p{
+        text-align: justify;
     }
 }
