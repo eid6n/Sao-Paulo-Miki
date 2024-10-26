@@ -73,7 +73,8 @@ p {
     background-position: top center;
     margin-left: 0px;
     margin-right: 20px;
-    width: 200vh;
+    width: auto;
+    max-width: 100%;
 }
 
 #primeiro_par {
@@ -305,8 +306,9 @@ a:hover {
     align-items: center;
     width: 1px;
     height: 1px;
-    margin-left: 200px;
+    margin-left: auto;
     padding-bottom: 350px;
+    margin-right: auto;
     }
 
     .container {
@@ -352,5 +354,10 @@ a:hover {
 
     p{
         text-align: justify;
+    }
+
+    #contato p{
+        text-align: center;
+        align-items: center;
     }
 }
